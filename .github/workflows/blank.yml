@@ -7,4 +7,4 @@ jobs:
       - name: Hello Step
         run: |
             echo "hello simon "
-            echp "How have you been"
+            echo "How have you been"
