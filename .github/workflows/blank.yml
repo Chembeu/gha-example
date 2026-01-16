@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: echo "Welcome to Actions"
+        run: |
+            echo "hello simon "
+            echp "How have you been"
