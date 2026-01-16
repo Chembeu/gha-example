@@ -16,4 +16,11 @@ jobs:
             echo "hello simon "
             echo "How have you been"
             echo "Hello, ${{secrets.DOCKER_PASSWORD}}"
+  action-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action Step
+        uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: python3 list.py
   
