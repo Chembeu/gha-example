@@ -15,5 +15,5 @@ jobs:
         run: |
             echo "hello simon "
             echo "How have you been"
-            echo "Hello, ${{var.MY_NAME}}"
+            echo "Hello, ${{vars.MY_NAME}}"
   
